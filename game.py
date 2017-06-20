@@ -5,7 +5,6 @@ class Army:
     def __init__(self):
         self.max_units = 100
         self.group = []
-        self.result_global = None
     def __str__(self):
         group_str= []
         for i in self.group:
